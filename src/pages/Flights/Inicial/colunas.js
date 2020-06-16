@@ -64,7 +64,9 @@ const colunas_da_tabela = [
       }
 
       return (
-        <div className={`bg-${tipo} p-1 text-center rounded`}>{texto}</div>
+        <div className={`bg-${tipo} p-1 text-center rounded text-light`}>
+          {texto}
+        </div>
       );
     },
   },
